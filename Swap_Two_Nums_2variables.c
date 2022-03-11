@@ -2,7 +2,7 @@
 int main()
 {
   int a,b;
-  printf("Swapping two numbers without using third variable\nUsing two variables 'a' and 'b'.");
+  printf("Swapping two numbers without using third variable\nUsing two variables 'a' and 'b'.\n");
   printf("\nEnter value for a : ");
   scanf("%d",&a);
   printf("\nEnter value for b : ");
