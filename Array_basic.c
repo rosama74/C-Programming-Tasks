@@ -9,7 +9,7 @@ int main()
         for(j=0;j<3;j++)
         {
             printf("Enter element [%d][%d] : ",i,j);
-            scanf("%d", &arr[i][j]);
+            scanf("%d", (*(arr+i)+j));
         }
     }
     printf("\nThe array is : \n");
@@ -17,7 +17,7 @@ int main()
     {
         for(j=0;j<3;j++)
         {
-            printf("%d\t",arr[i][j]);
+            printf("%d\t",*(*(arr+i)+j));
             if(i==j)
             {
                 d_sum += arr[i][j];
